@@ -1,0 +1,54 @@
+name: test-jenkins-installation
+description: Validate Jenkins installation, service status, and cron job
+schemaVersion: 1.0
+
+phases:
+  - name: validate
+    steps:
+      - name: CheckJenkinsBinary
+        action: ExecuteBash
+        inputs:
+          commands:
+            - |
+              if ! command -v jenkins >/dev/null 2>&1; then
+                echo "FAIL: Jenkins binary not found in PATH"
+                exit 1
+              else
+                echo "PASS: Jenkins binary found"
+              fi
+
+      - name: CheckJenkinsService
+        action: ExecuteBash
+        inputs:
+          commands:
+            - |
+              if ! systemctl is-active --quiet jenkins; then
+                echo "FAIL: Jenkins service is not active"
+                exit 1
+              else
+                echo "PASS: Jenkins service is running"
+              fi
+
+      - name: CheckUpdateScript
+        action: ExecuteBash
+        inputs:
+          commands:
+            - |
+              if [ ! -x /usr/local/bin/update_jenkins_url.sh ]; then
+                echo "FAIL: IP update script not found or not executable"
+                exit 1
+              else
+                echo "PASS: IP update script found and executable"
+              fi
+
+      - name: CheckCronJob
+        action: ExecuteBash
+        inputs:
+          commands:
+            - |
+              if ! grep -q '/usr/local/bin/update_jenkins_url.sh' /etc/crontab; then
+                echo "FAIL: Cron job for update script not found"
+                exit 1
+              else
+                echo "PASS: Cron job for update script is configured"
+              fi

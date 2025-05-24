@@ -1,0 +1,82 @@
+# application.log
+----------------------------------------------------------------------------------------------------------------------------------------------
+2025-03-23T20:20:52.495002577Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Pushed dequeue entry to current CW Logs batch - Message snippet ( CmdExecuti ... ), Current batch size ( 2548 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495003732Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Checking if current dequeue entry can be added to the current CW Logs batch - Message snippet ( CmdExecuti ... )
+2025-03-23T20:20:52.495008968Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Current dequeue entry can be included in current CW Logs batch - Message snippet ( CmdExecuti ... ), Current batch size ( 2548 bytes / 1000000 bytes ), Size of incoming batch entry 50
+2025-03-23T20:20:52.495012744Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Pushed dequeue entry to current CW Logs batch - Message snippet ( CmdExecuti ... ), Current batch size ( 2598 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495020744Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Checking if current dequeue entry can be added to the current CW Logs batch - Message snippet ( ExecuteBas ... )
+2025-03-23T20:20:52.495024086Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Current dequeue entry can be included in current CW Logs batch - Message snippet ( ExecuteBas ... ), Current batch size ( 2598 bytes / 1000000 bytes ), Size of incoming batch entry 57
+2025-03-23T20:20:52.495027300Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Pushed dequeue entry to current CW Logs batch - Message snippet ( ExecuteBas ... ), Current batch size ( 2655 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495030332Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Checking if current dequeue entry can be added to the current CW Logs batch - Message snippet ( Executor:  ... )
+2025-03-23T20:20:52.495033560Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Current dequeue entry can be included in current CW Logs batch - Message snippet ( Executor:  ... ), Current batch size ( 2655 bytes / 1000000 bytes ), Size of incoming batch entry 71
+2025-03-23T20:20:52.495036812Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Pushed dequeue entry to current CW Logs batch - Message snippet ( Executor:  ... ), Current batch size ( 2726 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495039851Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Checking if current dequeue entry can be added to the current CW Logs batch - Message snippet ( TOE has co ... )
+2025-03-23T20:20:52.495043259Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Current dequeue entry can be included in current CW Logs batch - Message snippet ( TOE has co ... ), Current batch size ( 2726 bytes / 1000000 bytes ), Size of incoming batch entry 66
+2025-03-23T20:20:52.495046513Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Pushed dequeue entry to current CW Logs batch - Message snippet ( TOE has co ... ), Current batch size ( 2792 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495030098Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Size of new batch of CW Logs - ( 2792 bytes / 1000000 bytes )
+2025-03-23T20:20:52.495035759Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Currently working with batch headed by 0xc0001079c0
+2025-03-23T20:20:52.495061883Z Debug CW Logs Monitor: [Path 2] (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) The current batch has 44 log events waiting to be pushed to CW Logs
+2025-03-23T20:20:52.509827379Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) API Response &{0xc0007ea210 <nil> <nil> {map[{}:-509742887 {}:0xc0009481b0 {}:<UUID> {}:{13980391541406043943 153159331683 0x2dcf100} {}:{0 63883628452 <nil>} {}:{[{<nil> false false {map[{}:-509742887 {}:0xc0009481b0 {}:<UUID> {}:{13980391541406043943 153159331683 0x2dcf100} {}:{0 63883628452 <nil>}]}}]}]} {}}
+2025-03-23T20:20:52.509848158Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) API Error <nil>
+2025-03-23T20:20:52.509872139Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Updating sequence token from 49662956211317608373567044253631732473786527693074858114 to 49660670293568603906316318267938257250384996679339214706
+2025-03-23T20:20:52.509876759Z Debug CW Logs Monitor: [Path 2] (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Result of operation to push current batch of logs to CW Logs - Should continue thread execution? true, Should implement backoff? false, Error <nil>
+2025-03-23T20:20:52.509880912Z Debug CW Logs Monitor: [Path 2] (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) The current batch has been uploaded to CW Logs successfully!
+2025-03-23T20:20:53.010687345Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Last used timestamp for this read operation - 1748031652128
+2025-03-23T20:20:53.010740715Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Reading new batch of log events
+2025-03-23T20:20:53.010746933Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Size of new batch of CW Logs - ( 0 bytes / 1000000 bytes )
+2025-03-23T20:20:53.010753271Z Debug CW Logs Monitor: [Path 1] (File /varbucket/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) There is no new batch and a read error was received - EOF
+2025-03-23T20:20:53.010758063Z Debug CW Logs Monitor: [Path 1] (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Termination request has been received! - Final error <nil>
+2025-03-23T20:20:53.010771571Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Error that is sent upstream - <nil>
+2025-03-23T20:20:53.010776201Z Debug CW Logs Monitor: (File /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log) Terminating thread for file /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>/console.log...
+2025-03-23T20:20:53.011932530Z Debug CW Logs Monitor: File monitoring threads have closed.
+2025-03-23T20:20:53.011953267Z Debug CLI run: calling UploadDirectoryToS3Func.
+2025-03-23T20:20:53.011965478Z Debug Utils: UploadDirectoryToS3 sourceDir = /var/lib/amazon/toe/TOE_2025-03-23_20-18-19_UTC-0_<UUID>, bucket = logs-general, key = ImageBuilder-XXXXXXXXXXXXXXXXXXX/jenkins-preset-recipe/0.0.2/2/wf-<UUID>/TOE_2025-03-23_20-18-19_UTC-0_<UUID>
+2025-03-23T20:20:53.011970689Z Debug Getting AWS region hint from instance to determine region of bucket logs-general
+2025-03-23T20:20:53.011976669Z Debug Proceeding with AWS region hint us-east-1 to determine AWS region of bucket logs-general
+2025-03-23T20:20:53.018331529Z Debug Created session variable with AWS region hint us-east-1 to determine AWS region of bucket logs-general
+2025-03-23T20:20:53.095689606Z Debug AWS region of bucket logs-general - us-east-1
+2025-03-23T20:20:53.096585774Z Debug Getting file D0__jenkins-setup-component__0.0.5_1.yml
+2025-03-23T20:20:53.096600765Z Debug Getting file D1__jenkins-test-component__0.0.1_1.yml
+2025-03-23T20:20:53.096607621Z Debug Getting file application.log
+2025-03-23T20:20:53.096615738Z Debug Getting file chaining.json
+2025-03-23T20:20:53.096622307Z Debug Getting file console.log
+2025-03-23T20:20:53.096629376Z Debug Getting file detailedoutput.json
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# detailedoutput.json
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+{
+    "documents": [
+        {
+            "description": "Install Jenkins and configure cron",
+            "disableLogging": false,
+            "endTime": "2025-03-23T20:20:52Z",
+            "failureMessage": "",
+            "filePath": "arn:aws:imagebuilder:us-east-1:123456789:component/jenkins-setup/0.0.5/1",
+            "name": "install-jenkins",
+            "phases": [
+                {
+                    "disableLogging": false,
+                    "endTime": "2025-03-23T20:20:52Z",
+                    "failureMessage": "",
+                    "name": "build",
+                    "startTime": "2025-03-23T20:18:20Z",
+                    "status": "success",
+                    "steps": [
+                        {
+                            "action": "ExecuteBash",
+                            "detailedOutput": null,
+                            "disableLogging": false,
+                            "endTime": "2025-03-23T20:20:51Z",
+                            "failureMessage": "",
+                            "if": "",
+                            "inputs": "[{\"commands\":[\"export DEBIAN_FRONTEND=noninteractive\",\"sudo apt-get update\",\"sudo apt-get install -y fontconfig openjdk-17-jre\",\"sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key\",\"echo \\\"deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]\
+                             https://pkg.jenkins.io/debian-stable binary/\\\" | sudo tee /etc/apt/sources.list.d/jenkins.list \\u003e /dev/null\",\"export DEBIAN_FRONTEND=noninteractive\",\"sudo apt-get update\",
+                            \"sudo apt-get install -y jenkins\",\"sudo systemctl enable jenkins\",\"sudo systemctl start jenkins\"]}]",
+                            "loop": null,
+                            "maxAttempts": 1,
+                            "name": "InstallJenkins",
+                            "onFailure": "Abort"
